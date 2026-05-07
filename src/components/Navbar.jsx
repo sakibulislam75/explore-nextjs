@@ -13,6 +13,13 @@ const componentName = () => {
          <li>
             <Link href="/about">About</Link>
          </li>
+         <li>
+            <Link href="/products">Products</Link>
+         </li>
+
+         <li>
+            <Link href="/books">Books</Link>
+         </li>
       </>
    );
    return (

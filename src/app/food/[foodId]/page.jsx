@@ -3,7 +3,9 @@ import React from 'react';
 
 const FoodDetails = async ({ params }) => {
    const { foodId } = await params;
-   const res = await fetch(`https://phi-lab-server.vercel.app/api/v1/lab/foods/${foodId}`);
+   const res = await fetch(`https://phi-lab-server.vercel.app/api/v1/lab/foods/${foodId}`, {
+      cache: 'force-cache',
+   });
    const data = await res.json();
    const fetchData = data.data;
 

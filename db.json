@@ -1,0 +1,138 @@
+{
+   "products": [
+      {
+         "id": 1,
+         "name": "Wireless Mouse",
+         "category": "Electronics",
+         "price": 850,
+         "rating": 4.5,
+         "stock": 120,
+         "brand": "Logitech",
+         "description": "Ergonomic wireless mouse with smooth tracking.",
+         "image": "https://via.placeholder.com/400x300?text=Wireless+Mouse"
+      },
+      {
+         "id": 2,
+         "name": "Mechanical Keyboard",
+         "category": "Electronics",
+         "price": 2499,
+         "rating": 4.7,
+         "stock": 80,
+         "brand": "Redragon",
+         "description": "RGB backlit mechanical keyboard for gaming.",
+         "image": "https://via.placeholder.com/400x300?text=Keyboard"
+      },
+      {
+         "id": 3,
+         "name": "Gaming Headset",
+         "category": "Electronics",
+         "price": 1599,
+         "rating": 4.3,
+         "stock": 60,
+         "brand": "Razer",
+         "description": "Surround sound gaming headset with mic.",
+         "image": "https://via.placeholder.com/400x300?text=Headset"
+      },
+      {
+         "id": 4,
+         "name": "Smart Watch",
+         "category": "Wearable",
+         "price": 2999,
+         "rating": 4.6,
+         "stock": 45,
+         "brand": "Xiaomi",
+         "description": "Fitness tracking smartwatch with heart monitor.",
+         "image": "https://via.placeholder.com/400x300?text=Smart+Watch"
+      },
+      {
+         "id": 5,
+         "name": "Bluetooth Speaker",
+         "category": "Audio",
+         "price": 1299,
+         "rating": 4.4,
+         "stock": 100,
+         "brand": "JBL",
+         "description": "Portable waterproof Bluetooth speaker.",
+         "image": "https://via.placeholder.com/400x300?text=Speaker"
+      },
+      {
+         "id": 6,
+         "name": "Office Chair",
+         "category": "Furniture",
+         "price": 4999,
+         "rating": 4.2,
+         "stock": 30,
+         "brand": "IKEA",
+         "description": "Comfortable ergonomic office chair.",
+         "image": "https://via.placeholder.com/400x300?text=Chair"
+      },
+      {
+         "id": 7,
+         "name": "Laptop Stand",
+         "category": "Accessories",
+         "price": 699,
+         "rating": 4.1,
+         "stock": 150,
+         "brand": "Baseus",
+         "description": "Adjustable aluminum laptop stand.",
+         "image": "https://via.placeholder.com/400x300?text=Stand"
+      }
+   ],
+   "books": [
+      {
+         "id": 1,
+         "title": "The Alchemist",
+         "author": "Paulo Coelho",
+         "category": "Fiction",
+         "price": 250,
+         "rating": 4.7,
+         "description": "A philosophical story about following your dreams.",
+         "image": "https://example.com/images/alchemist.jpg",
+         "publishedYear": 1988
+      },
+      {
+         "id": 2,
+         "title": "Atomic Habit",
+         "author": "James Clear",
+         "category": "Self-Help",
+         "price": 350,
+         "rating": 4.9,
+         "description": "A guide to building good habits and breaking bad ones.",
+         "image": "https://example.com/images/atomic-habits.jpg",
+         "publishedYear": 2018
+      },
+      {
+         "id": 3,
+         "title": "Rich Dad Poor Dad",
+         "author": "Robert Kiyosaki",
+         "category": "Finance",
+         "price": 300,
+         "rating": 4.6,
+         "description": "Teaches financial literacy and investing basics.",
+         "image": "https://example.com/images/rich-dad-poor-dad.jpg",
+         "publishedYear": 1997
+      },
+      {
+         "id": 4,
+         "title": "Clean Code",
+         "author": "Robert C. Martin",
+         "category": "Programming",
+         "price": 500,
+         "rating": 4.8,
+         "description": "A handbook of agile software craftsmanship.",
+         "image": "https://example.com/images/clean-code.jpg",
+         "publishedYear": 2008
+      },
+      {
+         "id": 5,
+         "title": "Harry Potter and the Sorcerer's Stone",
+         "author": "J.K. Rowling",
+         "category": "Fantasy",
+         "price": 400,
+         "rating": 4.9,
+         "description": "A young wizard's journey begins at Hogwarts.",
+         "image": "https://example.com/images/harry-potter.jpg",
+         "publishedYear": 1997
+      }
+   ]
+}

@@ -1,6 +1,9 @@
 import React from 'react';
-
-const AboutPage = () => {
+export const metadata = {
+   title: 'About',
+   description: '...',
+};
+const AboutPages = () => {
    return (
       <div>
          <h1>This is about pages.</h1>
@@ -8,4 +11,4 @@ const AboutPage = () => {
    );
 };
 
-export default AboutPage;
+export default AboutPages;

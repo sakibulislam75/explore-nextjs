@@ -1,7 +1,10 @@
 import FoodCard from '@/components/Foodcard';
 import { ClientSegmentRoot } from 'next/dist/client/components/client-segment';
 import React from 'react';
-
+export const metadata = {
+   title: 'Foods',
+   description: '...',
+};
 const getPost = async () => {
    try {
       const res = await fetch('https://phi-lab-server.vercel.app/api/v1/lab/foods', {
@@ -10,7 +13,7 @@ const getPost = async () => {
       const data = await res.json();
       return data.data;
    } catch (error) {
-      throw new Erro('data fetching failed');
+      throw new Error('data fetching failed');
    }
 };
 
